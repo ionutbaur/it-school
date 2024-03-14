@@ -1,7 +1,5 @@
 package com.itschool.homework;
 
-import java.sql.SQLOutput;
-
 public class Challenge1 {
 
     public static void main(String[] args) {
@@ -17,11 +15,12 @@ public class Challenge1 {
 
         System.out.println("---");
 
-        int l = 10;
-        int L =2;
-        int A = l*L;
+        int length = 10;
+        int breadth =2;
+        int area = length * breadth;
+        // java convention for variable names is to start with lower case
 
-        System.out.println(A);
+        System.out.println(area);
 
     }
 }

@@ -10,8 +10,6 @@ public class Concat {
 
             System.out.println(replace + text2.toLowerCase());
 
-            String replace2 = text2.replace ("ionut", "Ionut");
-
             System.out.println(replace+ text2.toLowerCase());
 
             String a = text1.substring(0,12);
